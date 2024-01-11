@@ -1,0 +1,12 @@
+diff --git a/config/common.mk b/config/common.mk
+index 21f2b8af..4be1df26 100644
+--- a/config/common.mk
++++ b/config/common.mk
+@@ -295,7 +295,4 @@ $(call inherit-product, vendor/evolution/config/version.mk)
+ # Pixel Framework
+ $(call inherit-product-if-exists, vendor/pixel-framework/config.mk)
+ 
+-# Call the BCR setup
+-$(call inherit-product, vendor/bcr/bcr.mk)
+-
+ -include $(WORKSPACE)/build_env/image-auto-bits.mk

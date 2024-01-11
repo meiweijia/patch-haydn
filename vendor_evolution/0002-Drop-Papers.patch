@@ -1,0 +1,12 @@
+diff --git a/config/packages.mk b/config/packages.mk
+index 73bd6676..9f681b54 100644
+--- a/config/packages.mk
++++ b/config/packages.mk
+@@ -17,7 +17,6 @@
+ PRODUCT_PACKAGES += \
+     EvoEgg \
+     GameSpace \
+-    Papers \
+     Updates
+ 
+ # Gramophone
